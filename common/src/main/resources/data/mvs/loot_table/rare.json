@@ -97,6 +97,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
+              "options": "#minecraft:on_random_loot",
               "levels": {
                 "type": "minecraft:uniform",
                 "min": 20,
@@ -113,6 +114,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
+              "options": "#minecraft:on_random_loot",
               "levels": {
                 "type": "minecraft:uniform",
                 "min": 20,
@@ -129,6 +131,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
+              "options": "#minecraft:on_random_loot",
               "levels": {
                 "type": "minecraft:uniform",
                 "min": 20,
@@ -145,6 +148,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
+              "options": "#minecraft:on_random_loot",
               "levels": {
                 "type": "minecraft:uniform",
                 "min": 20,
@@ -161,6 +165,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
+              "options": "#minecraft:on_random_loot",
               "levels": {
                 "type": "minecraft:uniform",
                 "min": 20,
@@ -176,7 +181,8 @@
           "name": "minecraft:diamond_pickaxe",
           "functions": [
             {
-              "function": "minecraft:enchant_with_levels",
+              "function": "#minecraft:enchant_with_levels",
+              "options": "#minecraft:on_random_loot",
               "levels": {
                 "type": "minecraft:uniform",
                 "min": 20,
@@ -193,6 +199,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
+              "options": "#minecraft:on_random_loot",
               "levels": {
                 "type": "minecraft:uniform",
                 "min": 20,
@@ -209,6 +216,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
+              "options": "#minecraft:on_random_loot",
               "levels": {
                 "type": "minecraft:uniform",
                 "min": 20,
@@ -225,6 +233,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
+              "options": "#minecraft:on_random_loot",
               "levels": {
                 "type": "minecraft:uniform",
                 "min": 20,
@@ -241,6 +250,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
+              "options": "#minecraft:on_random_loot",
               "levels": {
                 "type": "minecraft:uniform",
                 "min": 20,
@@ -257,6 +267,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
+              "options": "#minecraft:on_random_loot",
               "levels": {
                 "type": "minecraft:uniform",
                 "min": 20,
@@ -273,6 +284,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
+              "options": "#minecraft:on_random_loot",
               "levels": {
                 "type": "minecraft:uniform",
                 "min": 20,
@@ -289,6 +301,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
+              "options": "#minecraft:on_random_loot",
               "levels": {
                 "type": "minecraft:uniform",
                 "min": 20,
@@ -305,6 +318,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
+              "options": "#minecraft:on_random_loot",
               "levels": {
                 "type": "minecraft:uniform",
                 "min": 20,
