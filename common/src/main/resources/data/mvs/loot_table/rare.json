@@ -97,13 +97,12 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "options": "#minecraft:on_random_loot",
               "levels": {
                 "type": "minecraft:uniform",
-                "min": 20,
-                "max": 39
+                "max": 39,
+                "min": 20
               },
-              "treasure": true
+              "options": "#minecraft:on_random_loot"
             }
           ]
         },
@@ -114,13 +113,12 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "options": "#minecraft:on_random_loot",
               "levels": {
                 "type": "minecraft:uniform",
-                "min": 20,
-                "max": 39
+                "max": 39,
+                "min": 20
               },
-              "treasure": true
+              "options": "#minecraft:on_random_loot"
             }
           ]
         },
@@ -131,13 +129,12 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "options": "#minecraft:on_random_loot",
               "levels": {
                 "type": "minecraft:uniform",
-                "min": 20,
-                "max": 39
+                "max": 39,
+                "min": 20
               },
-              "treasure": true
+              "options": "#minecraft:on_random_loot"
             }
           ]
         },
@@ -148,13 +145,12 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "options": "#minecraft:on_random_loot",
               "levels": {
                 "type": "minecraft:uniform",
-                "min": 20,
-                "max": 39
+                "max": 39,
+                "min": 20
               },
-              "treasure": true
+              "options": "#minecraft:on_random_loot"
             }
           ]
         },
@@ -165,13 +161,12 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "options": "#minecraft:on_random_loot",
               "levels": {
                 "type": "minecraft:uniform",
-                "min": 20,
-                "max": 39
+                "max": 39,
+                "min": 20
               },
-              "treasure": true
+              "options": "#minecraft:on_random_loot"
             }
           ]
         },
@@ -181,7 +176,7 @@
           "name": "minecraft:diamond_pickaxe",
           "functions": [
             {
-              "function": "#minecraft:enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "options": "#minecraft:on_random_loot",
               "levels": {
                 "type": "minecraft:uniform",
@@ -199,13 +194,12 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "options": "#minecraft:on_random_loot",
               "levels": {
                 "type": "minecraft:uniform",
-                "min": 20,
-                "max": 39
+                "max": 39,
+                "min": 20
               },
-              "treasure": true
+              "options": "#minecraft:on_random_loot"
             }
           ]
         },
@@ -216,13 +210,12 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "options": "#minecraft:on_random_loot",
               "levels": {
                 "type": "minecraft:uniform",
-                "min": 20,
-                "max": 39
+                "max": 39,
+                "min": 20
               },
-              "treasure": true
+              "options": "#minecraft:on_random_loot"
             }
           ]
         },
@@ -233,13 +226,12 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "options": "#minecraft:on_random_loot",
               "levels": {
                 "type": "minecraft:uniform",
-                "min": 20,
-                "max": 39
+                "max": 39,
+                "min": 20
               },
-              "treasure": true
+              "options": "#minecraft:on_random_loot"
             }
           ]
         },
@@ -250,13 +242,12 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "options": "#minecraft:on_random_loot",
               "levels": {
                 "type": "minecraft:uniform",
-                "min": 20,
-                "max": 39
+                "max": 39,
+                "min": 20
               },
-              "treasure": true
+              "options": "#minecraft:on_random_loot"
             }
           ]
         },
@@ -267,13 +258,12 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "options": "#minecraft:on_random_loot",
               "levels": {
                 "type": "minecraft:uniform",
-                "min": 20,
-                "max": 39
+                "max": 39,
+                "min": 20
               },
-              "treasure": true
+              "options": "#minecraft:on_random_loot"
             }
           ]
         },
@@ -284,13 +274,12 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "options": "#minecraft:on_random_loot",
               "levels": {
                 "type": "minecraft:uniform",
-                "min": 20,
-                "max": 39
+                "max": 39,
+                "min": 20
               },
-              "treasure": true
+              "options": "#minecraft:on_random_loot"
             }
           ]
         },
@@ -301,13 +290,12 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "options": "#minecraft:on_random_loot",
               "levels": {
                 "type": "minecraft:uniform",
-                "min": 20,
-                "max": 39
+                "max": 39,
+                "min": 20
               },
-              "treasure": true
+              "options": "#minecraft:on_random_loot"
             }
           ]
         },
@@ -320,11 +308,10 @@
               "function": "minecraft:enchant_with_levels",
               "options": "#minecraft:on_random_loot",
               "levels": {
-                "type": "minecraft:uniform",
-                "min": 20,
-                "max": 39
-              },
-              "treasure": true
+                "min": 30.0,
+                "max": 45.0,
+                "type": "minecraft:uniform"
+              }
             }
           ]
         }
