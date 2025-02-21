@@ -6,6 +6,10 @@ out/
 classes/
 gradle/wrapper
 
+#Do not gradle.properties and gradle-wrapper.jar as they are necessary for ./gradlew
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
 # eclipse
 
 *.launch
