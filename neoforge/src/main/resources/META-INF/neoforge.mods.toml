@@ -30,7 +30,8 @@ license="https://github.com/FinnSetchell/MoogsVoyagerStructures/blob/1.20-MultiL
     type="required"
     versionRange="[1.21,)"
 
-[[dependencies.mns]]
+
+[[dependencies.mvs]]
     modId="neoforge"
     type="required"
-    versionRange="[,21.4.83]"
+    versionRange="[21.4.86-beta,)"

@@ -12,7 +12,7 @@ import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
-import net.neoforged.neoforge.event.AddReloadListenerEvent;
+import net.neoforged.neoforge.event.AddServerReloadListenersEvent;
 import net.neoforged.neoforge.event.server.ServerAboutToStartEvent;
 import net.neoforged.neoforge.event.server.ServerStoppingEvent;
 
@@ -49,8 +49,8 @@ public class MVSNeoforge {
         ServerGoingToStopEvent.EVENT.invoke(ServerGoingToStopEvent.INSTANCE);
     }
 
-    private static void onAddReloadListeners(AddReloadListenerEvent event) {
-        RegisterReloadListenerEvent.EVENT.invoke(new RegisterReloadListenerEvent((id, listener) -> event.addListener(listener)));
+    private static void onAddReloadListeners(AddServerReloadListenersEvent event) {
+        RegisterReloadListenerEvent.EVENT.invoke(new RegisterReloadListenerEvent(event::addListener));
     }
 
 }
