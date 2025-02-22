@@ -81,23 +81,21 @@ publishing {
 
 publishMods {
     file = remapJar.archiveFile
-    changelog = "Changelog"
     type = STABLE
     modLoaders.add("fabric")
+    changelog = "Changelog"
 
     modrinth {
         accessToken = providers.environmentVariable("MODRINTH_API_KEY")
-        projectId = "<PROJECT ID>"
-        announcementTitle = "Download from Modrinth"
+        projectId = "OQAgZMH1"
         minecraftVersions.add("1.21.4")
     }
 
-/*
     curseforge {
         accessToken = providers.environmentVariable("CURSEFORGE_API_KEY")
-        projectId = "<PROJECT ID>"
-        announcementTitle = "Download from CurseForge"
+        projectId = "656977"
         minecraftVersions.add("1.21.4")
+        serverRequired = true
     }
-*/
+
 }
