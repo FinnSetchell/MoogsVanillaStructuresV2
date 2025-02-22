@@ -79,11 +79,14 @@ publishing {
     }
 }
 
+File changeLog = rootProject.file("CHANGELOG.md")
+String changelogtext = changeLog.exists() ? changeLog.text : ""
+
 publishMods {
     file = remapJar.archiveFile
     type = STABLE
     modLoaders.add("fabric")
-    changelog = "Changelog"
+    changelog = changelogtext
 
     modrinth {
         accessToken = providers.environmentVariable("MODRINTH_API_KEY")
